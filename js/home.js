@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     ];
     */
     const videos = [
-        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/beztebyabottomfarger.mp4",
-        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/hvh.mp4",
         "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/space.mp4",
-        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/tuffsong.mp4"
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/tuffsong.mp4",
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/beztebyabottomfarger.mp4",
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/hvh.mp4"
     ];
     // Get current index from localStorage, rotate to next
     let videoIndex = parseInt(localStorage.getItem('videoIndex') || '0');
