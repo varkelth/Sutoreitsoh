@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     // --- Sequential Background Video (rotates each refresh) ---
+    /* old video */
+    /*
     const videos = [
         "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/beztebyabottomfarger.mp4",
         "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/hvh.mp4",
@@ -8,7 +10,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/Vehemence.mp4",
         "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/space.mp4"
     ];
-
+    */
+    const videos = [
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/beztebyabottomfarger.mp4",
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/hvh.mp4",
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/space.mp4",
+        "https://media.githubusercontent.com/media/varkelth/Sutoreitsoh/main/img/tuffsong.mp4"
+    ];
     // Get current index from localStorage, rotate to next
     let videoIndex = parseInt(localStorage.getItem('videoIndex') || '0');
     const currentVideo = videos[videoIndex];
